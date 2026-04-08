@@ -1,0 +1,21 @@
+USD/MXN volatility submission package
+
+Main entry points:
+  python run_all.py
+  python code/pipeline.py all
+
+Step-by-step scripts:
+  python code/01_prepare_data.py
+  python code/02_fit_baselines.py
+  python code/03_train_transformer.py
+  python code/04_build_tables.py
+  python code/05_make_figures.py
+  python code/06_build_paper.py
+
+Key outputs:
+  processed data   -> outputs\processed
+  model outputs    -> outputs\models
+  predictions      -> outputs\predictions
+  tables           -> outputs\tables
+  figures          -> outputs\figures
+  final paper      -> paper

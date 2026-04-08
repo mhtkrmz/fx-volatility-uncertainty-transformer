@@ -1,0 +1,45 @@
+{
+  "n_sequences": 6514,
+  "lookback": 40,
+  "feature_names": [
+    "Mexico_ret",
+    "Mexico_logrv",
+    "Brazil_ret",
+    "Brazil_logrv",
+    "Canada_ret",
+    "Canada_logrv",
+    "Euro_ret",
+    "Euro_logrv",
+    "South Africa_ret",
+    "South Africa_logrv",
+    "Japan_ret",
+    "Japan_logrv",
+    "South Korea_ret",
+    "South Korea_logrv",
+    "China_ret",
+    "China_logrv",
+    "dow_0",
+    "dow_1",
+    "dow_2",
+    "dow_3",
+    "dow_4",
+    "y_w",
+    "y_m"
+  ],
+  "univariate_features": [
+    "Mexico_ret",
+    "Mexico_logrv",
+    "y_w",
+    "y_m",
+    "dow_0",
+    "dow_1",
+    "dow_2",
+    "dow_3",
+    "dow_4"
+  ],
+  "array_shape": [
+    6514,
+    40,
+    23
+  ]
+}

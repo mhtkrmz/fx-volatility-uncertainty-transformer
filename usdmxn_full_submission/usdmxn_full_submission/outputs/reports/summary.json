@@ -1,0 +1,76 @@
+{
+  "density_metrics": {
+    "HAR-style Gaussian": {
+      "NLL": 2.229847,
+      "CRPS": 1.252013,
+      "RMSE_y": 2.245285,
+      "MAE_y": 1.763967,
+      "Cov90": 0.894737,
+      "IS90": 9.691473,
+      "QLIKE": 1.737451
+    },
+    "GARCH": {
+      "NLL": 2.229679,
+      "CRPS": 1.252139,
+      "RMSE_y": 2.245285,
+      "MAE_y": 1.763967,
+      "Cov90": 0.898588,
+      "IS90": 9.723357,
+      "QLIKE": 1.763204
+    },
+    "GJR-GARCH": {
+      "NLL": 2.229679,
+      "CRPS": 1.252139,
+      "RMSE_y": 2.245285,
+      "MAE_y": 1.763967,
+      "Cov90": 0.898588,
+      "IS90": 9.723365,
+      "QLIKE": 1.763207
+    },
+    "EGARCH": {
+      "NLL": 2.229024,
+      "CRPS": 1.252399,
+      "RMSE_y": 2.245285,
+      "MAE_y": 1.763967,
+      "Cov90": 0.901797,
+      "IS90": 9.734754,
+      "QLIKE": 1.805714
+    },
+    "Transformer (univariate)": {
+      "NLL": 2.242865,
+      "CRPS": 1.268122,
+      "RMSE_y": 2.265087,
+      "MAE_y": 1.787786,
+      "Cov90": 0.898588,
+      "IS90": 9.806526,
+      "QLIKE": 1.850164
+    },
+    "Transformer ensemble": {
+      "NLL": 2.243393,
+      "CRPS": 1.26457,
+      "RMSE_y": 2.260786,
+      "MAE_y": 1.77439,
+      "Cov90": 0.906932,
+      "IS90": 9.862283,
+      "QLIKE": 1.920741
+    }
+  },
+  "quantile_metrics": {
+    "Cov90": 0.8658536585365854,
+    "IS90": 9.47001437995122,
+    "RMSE_0.50": 2.2526495050197695,
+    "Pinball_0.05": 0.2945122343923479,
+    "Pinball_0.50": 0.8544967560012718,
+    "Pinball_0.95": 0.17898848460521322
+  },
+  "dm_stats": {
+    "Ensemble vs HAR-style Gaussian": {
+      "stat": NaN,
+      "p_value": NaN
+    },
+    "Ensemble vs EGARCH": {
+      "stat": NaN,
+      "p_value": NaN
+    }
+  }
+}

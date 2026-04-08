@@ -1,0 +1,80 @@
+{
+  "multivariate_features": [
+    "Mexico_ret",
+    "Mexico_logrv",
+    "Brazil_ret",
+    "Brazil_logrv",
+    "Canada_ret",
+    "Canada_logrv",
+    "Euro_ret",
+    "Euro_logrv",
+    "South Africa_ret",
+    "South Africa_logrv",
+    "Japan_ret",
+    "Japan_logrv",
+    "South Korea_ret",
+    "South Korea_logrv",
+    "China_ret",
+    "China_logrv",
+    "dow_0",
+    "dow_1",
+    "dow_2",
+    "dow_3",
+    "dow_4",
+    "y_w",
+    "y_m"
+  ],
+  "univariate_features": [
+    "Mexico_ret",
+    "Mexico_logrv",
+    "y_w",
+    "y_m",
+    "dow_0",
+    "dow_1",
+    "dow_2",
+    "dow_3",
+    "dow_4"
+  ],
+  "multivariate_scaling": {
+    "mu_y": -11.825726509094238,
+    "std_y": 2.2158939838409424
+  },
+  "univariate_scaling": {
+    "mu_y": -11.825726509094238,
+    "std_y": 2.2158939838409424
+  },
+  "multivariate_shapes": {
+    "X_train": [
+      3958,
+      40,
+      23
+    ],
+    "X_val": [
+      998,
+      40,
+      23
+    ],
+    "X_test": [
+      1558,
+      40,
+      23
+    ]
+  },
+  "univariate_shapes": {
+    "X_train": [
+      3958,
+      40,
+      9
+    ],
+    "X_val": [
+      998,
+      40,
+      9
+    ],
+    "X_test": [
+      1558,
+      40,
+      9
+    ]
+  }
+}

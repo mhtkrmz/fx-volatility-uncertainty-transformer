@@ -1,0 +1,73 @@
+{
+  "countries": [
+    "Mexico",
+    "Brazil",
+    "Canada",
+    "Euro",
+    "South Africa",
+    "Japan",
+    "South Korea",
+    "China"
+  ],
+  "start_date": "2000-01-03",
+  "end_date": "2026-03-27",
+  "aligned_panel_observations": 6577,
+  "return_observations": 6576,
+  "feature_columns": [
+    "Mexico_ret",
+    "Mexico_logrv",
+    "Brazil_ret",
+    "Brazil_logrv",
+    "Canada_ret",
+    "Canada_logrv",
+    "Euro_ret",
+    "Euro_logrv",
+    "South Africa_ret",
+    "South Africa_logrv",
+    "Japan_ret",
+    "Japan_logrv",
+    "South Korea_ret",
+    "South Korea_logrv",
+    "China_ret",
+    "China_logrv",
+    "dow_0",
+    "dow_1",
+    "dow_2",
+    "dow_3",
+    "dow_4",
+    "y_w",
+    "y_m"
+  ],
+  "train_rows": 3998,
+  "validation_rows": 998,
+  "test_rows": 1558,
+  "config": {
+    "countries": [
+      "Mexico",
+      "Brazil",
+      "Canada",
+      "Euro",
+      "South Africa",
+      "Japan",
+      "South Korea",
+      "China"
+    ],
+    "start_date": "2000-01-01",
+    "end_date": "2026-03-27",
+    "train_end": "2015-12-31",
+    "val_end": "2019-12-31",
+    "eps": 1e-08,
+    "lookback": 40,
+    "patch_size": 5,
+    "transformer_univariate_seed": 7,
+    "transformer_ensemble_seeds": [
+      11,
+      17,
+      23
+    ],
+    "transformer_epochs": 14,
+    "transformer_patience": 4,
+    "transformer_batch_size": 512,
+    "transformer_lr": 0.0006
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Ensemble vs HAR-style Gaussian": {
+    "stat": NaN,
+    "p_value": NaN
+  },
+  "Ensemble vs EGARCH": {
+    "stat": NaN,
+    "p_value": NaN
+  }
+}
